@@ -1,0 +1,35 @@
+#Spain {
+  background-image: url("./spain_flag.svg")
+}
+#Italy {
+  background-image: url("./italy_flag.svg")
+}
+#Aruba {
+  background-image: url("./aruba_flag.svg")
+}
+#Chile {
+  background-image: url("./chile_flag.svg")
+}
+
+.card {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      background-color: white;
+      width: 300px;
+      margin: 2%;
+      height:300px;
+      padding-bottom: 2%;
+      color: black;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .row{
+      background-color: lightblue;
+    }
+
+    .item{
+      align: center;
+    }
